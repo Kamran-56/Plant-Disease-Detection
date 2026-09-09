@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Disease Prediction</title>
+    <link rel="stylesheet" href="/PlantCare/style.css">
+</head>
+<body>
+
+    <div id="mainContainer">
+        <h1 id="appHeading">🌱 Plant Care - Potato Disease Detector</h1>
+
+        <div id="uploadSection">
+            <form id="upload">
+                <label for="imageInput" class="file-label">📷 Choose a Leaf Image:</label>
+                <input type="file" id="imageInput" accept="image/*" required>
+                
+                <div id="previewContainer">
+                    <img id="previewImage" alt="Preview will appear here"/>
+                </div>
+                
+                <button type="submit">Upload & Predict</button>
+            </form>
+        </div>
+
+        <div id="resultSection"></div>
+    </div>
+
+    <script src="/PlantCare/app.js"></script>
+</body>
+</html>
+
