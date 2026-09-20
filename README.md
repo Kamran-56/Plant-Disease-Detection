@@ -13,7 +13,7 @@ The project has three parts:
 ## Project Structure
 
 ```
-AI ML Potato Project/
+Parent Folder/                 # choose your desired folder name and modify the path names accordingly
 ├── api/
 │   └── main.py                # FastAPI app serving predictions
 ├── models/
@@ -111,4 +111,4 @@ Kamran Nazir — Islamic University of Science & Technology (IUST), Kashmir
 
 ## Acknowledgements
 
-This project was built while following this YouTube playlist from "code Basics": [Potato Disease Classification](https://youtube.com/playlist?list=PLeo1K3hjS3ut49PskOfLnE6WUoOp_2lsD)
+The development of this project was guided by the following [Potato Disease Classification](https://youtube.com/playlist?list=PLeo1K3hjS3ut49PskOfLnE6WUoOp_2lsD) from "Code Basics", with modifications and adaptations made to suit the requirements of this project.
